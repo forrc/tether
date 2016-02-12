@@ -3,14 +3,13 @@
 [![GitHub
 version](https://badge.fury.io/gh/HubSpot%2Ftether.svg)](http://badge.fury.io/gh/HubSpot%2Ftether)
 
-Tether is a JavaScript library for efficiently making an absolutely positioned element stay next to another element on the page.
+Tether is a JavaScript library specifically designed to efficiently hold an element that has been absolutely positioned next to another element on your webpage in place.
 
-Elements can be positioned manually but if you wanted them to change positions when a window resizes, you will need to have crafted those elements with that in mind. When you have multiples of these positioned and reacting differently, you suddenly have a lot more work. 
+Although elements can be positioned manually, if you wanted them to change positions when resizing the screen later on, you would have had to craft each of those elements with that potential purpose in mind. Because when you do have multiple positioned elements all suddenly reacting differently, your work load will exponentially increase.
 
-Tether's goal is to ease this kind of work by providing such functionality so that you don't have to worry about document flow for those kinds of uniquely placed elements (tooltips and banners for example). These elements can be attached with a simple constructor and has various options available such as repositioning after certain scroll thresholds, or keeping an element confined within an area.
+Tether's goal is to ease this kind of work by providing optimal functionality when placing any type of unique element (like tooltips or banners) on to the screen, so that you don't have to worry about document flow. These elements can be attached with a simple constructor and has various options available, additionally providing you with several options like the ability to reposition elements even after a certain scroll threshold has been reached, or to keep an element confined to one specific area.
 
-It aims to be the canonical implementation of this type of positioning, such that you can build products, not positioning libraries.
-Take a look at the documentation for a more detailed explanation of why you should star it now to remember it for your next project.
+It thus aims for a canonical implementation of this type of positioning, so that you can ultimately build products, not positioning libraries. Please take a look at the attached documentation for a more detailed explanation of why you should think of Tether when starting your next project.
 
 ## Install
 
